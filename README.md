@@ -39,6 +39,7 @@ export function lint() {
 
 ## Arguments
 
-`files(glob)`
+`files(glob, options)`
 
 * `glob` – [globby patterns](https://github.com/sindresorhus/globby#patterns)
+* `options` – [node-glob options](https://github.com/isaacs/node-glob#options), `{ realpath: true, ignore: 'node_modules/**' }` by default

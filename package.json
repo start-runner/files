@@ -1,14 +1,11 @@
 {
   "name": "start-files",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Files task for Start",
   "keywords": [ "start", "start-task", "glob" ],
   "homepage": "https://github.com/start-runner/files",
   "repository": "start-runner/files",
-  "contributors": [
-    "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
-    "Denis Koltsov <iam@mistadikay.com> (https://github.com/mistadikay)"
-  ],
+  "author": "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
   "files": [ "build/" ],
   "main": "build/index.js",
   "peerDependencies": {

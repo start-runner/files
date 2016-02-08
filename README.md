@@ -1,6 +1,8 @@
 [![npm](https://img.shields.io/npm/v/start-files.svg?style=flat-square)](https://www.npmjs.com/package/start-files)
 [![travis](http://img.shields.io/travis/start-runner/files.svg?style=flat-square)](https://travis-ci.org/start-runner/files)
+[![coverage](https://img.shields.io/codecov/c/github/start-runner/files.svg?style=flat-square)](https://codecov.io/github/start-runner/files)
 [![deps](https://img.shields.io/gemnasium/start-runner/files.svg?style=flat-square)](https://gemnasium.com/start-runner/files)
+[![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-00d06f.svg?style=flat-square)](https://gitter.im/start-runner/start)
 
 Files task for [Start](https://github.com/start-runner/start).
 
@@ -12,10 +14,7 @@ npm i -S start-files
 
 ## Usage
 
-Task provides an array of found files.
-
 ```js
-// tasks/index.js
 import start from 'start';
 import logger from 'start-simple-logger';
 import files from 'start-files';
@@ -29,13 +28,7 @@ export function lint() {
 }
 ```
 
-```js
-// package.json
-"scripts": {
-  "task": "babel-node node_modules/.bin/start tasks/",
-  "lint": "npm run task lint"
-}
-```
+Task provides an array of found files, see [documentation](https://github.com/start-runner/start#readme) for details.
 
 ## Arguments
 

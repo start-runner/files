@@ -18,12 +18,12 @@ npm i -S start-files
 
 ```js
 import start from 'start';
-import logger from 'start-simple-logger';
+import reporter from 'start-pretty-reporter';
 import files from 'start-files';
 import eslint from 'start-eslint';
 
 export function lint() {
-    return start(logger())(
+    return start(reporter())(
         files('lib/**/*.js'),
         eslint()
     );

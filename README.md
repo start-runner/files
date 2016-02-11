@@ -37,4 +37,4 @@ Task provides an array of found files, see [documentation](https://github.com/st
 `files(glob, options)`
 
 * `glob` – [globby patterns](https://github.com/sindresorhus/globby#patterns)
-* `options` – [node-glob options](https://github.com/isaacs/node-glob#options), `{ realpath: true, ignore: 'node_modules/**' }` by default
+* `options` – [node-glob options](https://github.com/isaacs/node-glob#options), `{ realpath: true, ignore: [ 'node_modules/**', 'bower_components/**' ] }` by default

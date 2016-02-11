@@ -1,6 +1,6 @@
 {
   "name": "start-files",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Files task for Start",
   "keywords": [ "start", "start-task", "glob" ],
   "homepage": "https://github.com/start-runner/files",

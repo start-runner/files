@@ -9,7 +9,7 @@
   "files": [ "build/" ],
   "main": "build/index.js",
   "dependencies": {
-    "globby": "^6.0.0",
+    "globby": "^6.1.0",
     "babel-runtime": "^6.11.6"
   },
   "devDependencies": {

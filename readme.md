@@ -10,8 +10,10 @@ Files task for [Start](https://github.com/start-runner/start).
 
 ## Install
 
-```
-npm i -S start-files
+```sh
+npm install --save-dev start-files
+# or
+yarn add --dev start-files
 ```
 
 ## Usage
@@ -22,12 +24,10 @@ import reporter from 'start-pretty-reporter';
 import files from 'start-files';
 import eslint from 'start-eslint';
 
-export function lint() {
-    return start(reporter())(
-        files('lib/**/*.js'),
-        eslint()
-    );
-}
+export const lint = () => start(reporter())(
+  files('lib/**/*.js'),
+  eslint()
+);
 ```
 
 Task provides an array of found files, see [documentation](https://github.com/start-runner/start#readme) for details.
